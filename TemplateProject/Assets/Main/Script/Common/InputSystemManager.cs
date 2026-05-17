@@ -9,10 +9,11 @@ namespace Common
     {
         public InputSystem_Actions inputActions { get; private set; }
 
-        InputSystemManager ()
+        private void Awake()
         {
             inputActions = new InputSystem_Actions();
         }
+
         /// <summary>
         /// 全Inputを遮断
         /// </summary>
