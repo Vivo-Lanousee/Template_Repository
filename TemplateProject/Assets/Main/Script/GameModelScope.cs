@@ -23,7 +23,7 @@ public class GameModelScope : LifetimeScope
 
         //便宜上TestMonoを登録することでPlayerSystemを探索させる為に使っている
         //PlayerSystemを探索できていれば問題ないっちゃない。
-        builder.RegisterComponentInHierarchy<TestMono>();
+       // builder.RegisterComponentInHierarchy<TestMono>();
     }
 }
 
